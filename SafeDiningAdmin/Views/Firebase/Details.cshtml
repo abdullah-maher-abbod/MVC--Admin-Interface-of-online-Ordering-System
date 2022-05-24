@@ -1,0 +1,101 @@
+﻿@model SafeDiningAdmin.Models.FirebaseData
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <hr />
+    <dl class="dl-horizontal">
+        <div class="container">
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.id) :
+                </dt>
+
+                <dd>
+                   :  @Html.DisplayFor(model => model.id)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.name) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.name)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.address) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.address)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.availability) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.availability)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.category) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.category)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.price) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.price)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.rate) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.rate)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.password) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.password)
+                </dd>
+            </div>
+            <div class="row">
+                <dt>
+                    @Html.DisplayNameFor(model => model.announcement) :
+                </dt>
+
+                <dd>
+                    :  @Html.DisplayFor(model => model.announcement)
+                </dd>
+            </div>
+            </div>
+
+</dl>
+</div>
+<p>
+    @Html.ActionLink("Back to List", "Index")
+</p>
+
